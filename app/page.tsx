@@ -5,6 +5,7 @@ import { ControlPanel, type WaveParams } from "../components/control-panel"
 import { WaveCanvas } from "../components/wave-canvas"
 import { PageTitle } from "../components/page-title"
 import { BottomMenu } from "../components/bottom-menu"
+import { CustomAudioPlayer } from "../components/custom-audio-player"
 
 export default function Page() {
   const [params, setParams] = useState<WaveParams>({
@@ -32,6 +33,7 @@ export default function Page() {
       <PageTitle />
       <WaveCanvas params={params} />
       <BottomMenu />
+      <CustomAudioPlayer />
     </div>
   )
 }
