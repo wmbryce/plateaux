@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 export function PageTitle() {
   return (
@@ -23,8 +23,7 @@ export function PageTitle() {
           style={{
             backdropFilter: "invert(1)",
             WebkitBackdropFilter: "invert(1)",
-            mask: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Ctext x='50%25' y='50%25' dominantBaseline='middle' textAnchor='middle' fontFamily='Monaco, Consolas, monospace' fontSize='48' fontWeight='bold' fill='white'%3Eplateux%3C/text%3E%3C/svg%3E")`,
-            WebkitMask: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Ctext x='50%25' y='50%25' dominantBaseline='middle' textAnchor='middle' fontFamily='Monaco, Consolas, monospace' fontSize='48' fontWeight='bold' fill='white'%3Eplateux%3C/text%3E%3C/svg%3E")`,
+            WebkitMask: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Ctext x='50%25' y='50%25' dominantBaseline='middle' textAnchor='middle' fontFamily='Monaco, Consolas, monospace' fontSize='48' fontWeight='bold' fill='white'%3Eplateaux%3C/text%3E%3C/svg%3E")`,
             maskSize: "1200px 300px",
             WebkitMaskSize: "1200px 300px",
             maskRepeat: "no-repeat",
@@ -35,5 +34,5 @@ export function PageTitle() {
         />
       </div>
     </div>
-  )
+  );
 }
